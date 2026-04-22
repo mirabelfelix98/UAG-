@@ -8,7 +8,9 @@
 <!-- Meta Pixel -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init','2438635346556151');fbq('track','PageView');
+fbq('init','2438635346556151');
+fbq('track','PageView');
+fbq('track','ViewContent');
 </script>
 
 <!-- Fonts -->
@@ -841,7 +843,7 @@ fbq('init','2438635346556151');fbq('track','PageView');
     <!-- Stage 2 CTA -->
     <div class="cta-strip">
       <p>Already know you need a system? Skip straight to the solution:</p>
-      <a href="#get-access" class="btn-main" onclick="fbq && fbq('track','Lead')">
+      <a href="#get-access" class="btn-main" onclick="if(!this.dataset.tracked){fbq && fbq('track','Lead'); this.dataset.tracked=true;}">
         👉 Yes — Show Me The System <span class="arrow">→</span>
       </a>
     </div>
@@ -977,7 +979,7 @@ fbq('init','2438635346556151');fbq('track','PageView');
         </div>
       </div>
 
-      <a href="https://selar.com/p/361n65?affiliate=3ub2x65544" class="btn-main" onclick="fbq && fbq('track','InitiateCheckout')">
+      <a href="https://selar.com/p/361n65?affiliate=3ub2x65544" class="btn-main" onclick="if(!this.dataset.tracked){fbq && fbq('track','Purchase'); this.dataset.tracked=true;}">
         👉 YES — Give Me Instant Access →
       </a>
       <div class="trust-badges">
@@ -1058,7 +1060,7 @@ fbq('init','2438635346556151');fbq('track','PageView');
         </div>
       </div>
 
-      <a href="#get-access" class="btn-main" onclick="fbq && fbq('track','InitiateCheckout')">
+      <a href="#get-access" class="btn-main" onclick="if(!this.dataset.tracked){fbq && fbq('track','Purchase'); this.dataset.tracked=true;}">
         👉 YES — Give Me Instant Access →
       </a>
       <div class="trust-badges" style="margin-top:14px;">
@@ -1164,7 +1166,7 @@ fbq('init','2438635346556151');fbq('track','PageView');
       </div>
     </div>
 
-    <a href="#get-access" class="btn-main" style="max-width:520px; margin:0 auto 16px;" onclick="fbq && fbq('track','InitiateCheckout')">
+    <a href="#get-access" class="btn-main" style="max-width:520px; margin:0 auto 16px;" onclick="if(!this.dataset.tracked){fbq && fbq('track','Purchase'); this.dataset.tracked=true;}">
       👉 YES — Give Me Instant Access Now →
     </a>
 
