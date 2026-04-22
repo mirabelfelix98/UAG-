@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Honest Truth About Making Money Online — Read Before You Scroll</title>
+
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','2438635346556151');fbq('track','PageView');
+</script>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --bg: #080b08;
+    --surface: #0f140f;
+    --card: #141a14;
+    --green: #16a34a;
+    --green-light: #22c55e;
+    --green-glow: rgba(34,197,94,0.15);
+    --gold: #d4a843;
+    --gold-light: #f0c060;
+    --text: #e8f0e8;
+    --muted: #7a8f7a;
+    --border: rgba(34,197,94,0.12);
+    --red: #ef4444;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* --- UTILITIES --- */
+  .container { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  .serif-italic { font-family: 'Playfair Display', serif; font-style: italic; }
+
+  /* --- STAGE LABELS --- */
+  .stage-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+  .stage-label span {
+    width: 20px;
+    height: 1px;
+    background: var(--muted);
+    display: inline-block;
+  }
+
+  /* --- TOP BAR --- */
+  .topbar {
+    background: var(--green);
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #fff;
+  }
+  .topbar strong { color: var(--gold-light); }
+
+  /* STAGE 1 */
+  .stage1 {
+    padding: 80px 0 60px;
+    position: relative;
+    overflow: hidden;
+  }
+  .stage1::before {
+    content: '';
+    position: absolute;
+    top: -200px; left: 50%; transform: translateX(-50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(34,197,94,0.06) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--green-light);
+    margin-bottom: 20px;
+  }
+
+  .stage1 h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(38px, 8vw, 62px);
+    line-height: 1.05;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 24px;
+  }
+  .stage1 h1 .accent { color: var(--green-light); }
+  .stage1 h1 .gold { color: var(--gold); }
+
+  .stage1-lead {
+    font-size: 19px;
+    color: #b0c8b0;
+    max-width: 620px;
+    margin-bottom: 40px;
+    line-height: 1.75;
+  }
+
+  .mirror {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--green);
+    border-radius: 8px;
+    padding: 28px 32px;
+    margin-bottom: 40px;
+  }
+  .mirror p {
+    font-size: 18px;
+    font-style: italic;
+    color: #c5d8c5;
+    margin-bottom: 10px;
+    line-height: 1.8;
+  }
+  .mirror p:last-child { margin-bottom: 0; }
+
+  .scroll-hint {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    letter-spacing: 1px;
+    animation: bounce 2s infinite;
+  }
+  .scroll-hint svg { display: block; margin: 6px auto 0; }
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 0;
+  }
+
+  /* STAGE 2 */
+  .stage2 {
+    padding: 80px 0;
+    background: linear-gradient(180deg, var(--bg) 0%, var(--surface) 50%, var(--bg) 100%);
+  }
+
+  .stage2 h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(30px, 6vw, 48px);
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 1.1;
+  }
+  .stage2 h2 .red { color: var(--red); }
+
+  .pain-list {
+    list-style: none;
+    margin: 32px 0;
+  }
+  .pain-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    font-size: 16px;
+    color: #b8ccb8;
+    line-height: 1.6;
+  }
+  .pain-list li:last-child { border-bottom: none; }
+  .pain-icon { font-size: 20px; flex-shrink: 0; margin-top: 2px; }
+
+  .truth-box {
+    background: linear-gradient(135deg, #0f1f0f, #0a180a);
+    border: 1px solid rgba(34,197,94,0.25);
+    border-radius: 12px;
+    padding: 36px;
+    margin: 40px 0;
+    text-align: center;
+  }
+  .truth-box .big-text {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: clamp(20px, 4vw, 28px);
+    color: var(--green-light);
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  .truth-box p {
+    color: #8aab8a;
+    font-size: 15px;
+  }
+
+  .transition-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #d4e8d4;
+    line-height: 1.7;
+    margin-bottom: 24px;
+    padding: 32px;
+    border-left: 3px solid var(--gold);
+    background: rgba(212,168,67,0.05);
+    border-radius: 0 8px 8px 0;
+  }
+
+  /* STAGE 3 */
+  .stage3 {
+    padding: 80px 0;
+  }
+
+  .solution-headline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(32px, 7vw, 56px);
+    letter-spacing: 1px;
+    line-height: 1.05;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  .solution-headline .green { color: var(--green-light); }
+
+  .product-card {
+    background: var(--card);
+    border: 1px solid rgba(34,197,94,0.2);
+    border-radius: 16px;
+    padding: 40px 36px;
+    margin: 40px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .product-card::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 200px; height: 200px;
+    background: radial-gradient(circle, rgba(34,197,94,0.08), transparent 70%);
+    pointer-events: none;
+  }
+  .product-card .creator {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--green-light);
+    margin-bottom: 10px;
+  }
+  .product-card h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  .product-card p {
+    color: #96b096;
+    font-size: 16px;
+    line-height: 1.75;
+  }
+
+  .learn-section { margin: 60px 0; }
+  .learn-section h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 28px;
+  }
+  .learn-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .learn-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .learn-item:last-child { border-bottom: none; }
+  .check {
+    width: 24px;
+    height: 24px;
+    background: var(--green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+    font-size: 13px;
+  }
+  .learn-item-text strong {
+    display: block;
+    color: #dff0df;
+    font-weight: 600;
+    margin-bottom: 3px;
+  }
+  .learn-item-text span {
+    color: #7a957a;
+    font-size: 14px;
+  }
+
+  .benefits { margin: 60px 0; }
+  .benefits h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 28px;
+  }
+  .benefit-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 32px;
+  }
+  .pill {
+    background: rgba(34,197,94,0.1);
+    border: 1px solid rgba(34,197,94,0.25);
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--green-light);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .testimonials { margin: 60px 0; }
+  .testimonials h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  .testimonials .sub {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  .testi-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .testi-img {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(34,197,94,0.15);
+  }
+  .testi-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  .testi-img img:hover { transform: scale(1.02); }
+  .testi-img.full { grid-column: 1 / -1; }
+
+  .result-callout {
+    background: linear-gradient(135deg, #0c1f0c, #091409);
+    border: 1px solid rgba(34,197,94,0.3);
+    border-radius: 12px;
+    padding: 32px;
+    text-align: center;
+    margin: 40px 0;
+  }
+  .result-callout .big-number {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 64px;
+    color: var(--green-light);
+    line-height: 1;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+  }
+  .result-callout p { color: #7a957a; font-size: 15px; }
+  .result-callout strong { color: #c5d8c5; }
+
+  /* CTA BLOCK */
+  .cta-block {
+    background: linear-gradient(135deg, #0d1f0d, #0a160a);
+    border: 1px solid rgba(34,197,94,0.3);
+    border-radius: 16px;
+    padding: 48px 36px;
+    text-align: center;
+    margin: 60px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-block::before {
+    content: '';
+    position: absolute;
+    bottom: -100px; right: -100px;
+    width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(34,197,94,0.07), transparent 70%);
+    pointer-events: none;
+  }
+
+  .cta-block .price-anchor {
+    font-size: 14px;
+    color: var(--muted);
+    text-decoration: line-through;
+    margin-bottom: 4px;
+  }
+  .cta-block .price {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+  .cta-block .price-note {
+    font-size: 13px;
+    color: #7a957a;
+    margin-bottom: 28px;
+  }
+
+  .btn-main {
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #16a34a, #22c55e);
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 20px 32px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.3px;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 20px rgba(34,197,94,0.3);
+    margin-bottom: 16px;
+    cursor: pointer;
+    border: none;
+  }
+  .btn-main:hover {
+    background: linear-gradient(135deg, #22c55e, #4ade80);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(34,197,94,0.4);
+  }
+  .btn-main .arrow { margin-left: 8px; }
+
+  .btn-secondary {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--green);
+    color: var(--green-light);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 16px 28px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.25s ease;
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+  .btn-secondary:hover {
+    background: rgba(34,197,94,0.08);
+  }
+
+  .trust-badges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .badge {
+    font-size: 12px;
+    color: #5a7a5a;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+  }
+
+  /* COUNTDOWN */
+  .countdown-wrapper {
+    margin: 24px 0;
+  }
+  .countdown-label {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .countdown {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  .count-unit {
+    text-align: center;
+  }
+  .count-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    border: 1px solid rgba(34,197,94,0.25);
+    border-radius: 8px;
+    padding: 8px 16px;
+    min-width: 72px;
+    display: block;
+    line-height: 1;
+  }
+  .count-label-small {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 6px;
+    display: block;
+  }
+  .count-sep {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    color: var(--green);
+    line-height: 1.4;
+    align-self: flex-start;
+    margin-top: 8px;
+  }
+
+  /* FAQ */
+  .objections { margin: 60px 0; }
+  .objections h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 28px;
+  }
+  .faq-item {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background: var(--surface);
+  }
+  .faq-q {
+    padding: 18px 24px;
+    font-weight: 600;
+    color: #cde0cd;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    transition: background 0.2s;
+  }
+  .faq-q:hover { background: rgba(34,197,94,0.06); }
+  .faq-q .icon { color: var(--green-light); font-size: 20px; transition: transform 0.3s; }
+  .faq-a {
+    padding: 0 24px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    color: #7a957a;
+    font-size: 15px;
+    line-height: 1.75;
+  }
+  .faq-item.open .faq-a {
+    max-height: 200px;
+    padding: 0 24px 18px;
+  }
+  .faq-item.open .faq-q .icon { transform: rotate(45deg); }
+
+  /* GUARANTEE */
+  .guarantee {
+    background: var(--card);
+    border: 1px solid rgba(34,197,94,0.2);
+    border-radius: 16px;
+    padding: 40px 36px;
+    margin: 60px 0;
+    text-align: center;
+  }
+  .guarantee .shield { font-size: 48px; margin-bottom: 16px; }
+  .guarantee h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  .guarantee p { color: #7a957a; font-size: 15px; line-height: 1.8; max-width: 500px; margin: 0 auto; }
+  .guarantee .guarantee-badge {
+    display: inline-block;
+    background: rgba(34,197,94,0.1);
+    border: 1px solid rgba(34,197,94,0.3);
+    border-radius: 100px;
+    padding: 6px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--green-light);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+
+  /* FINAL CTA */
+  .final-cta {
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .final-cta::before {
+    content: '';
+    position: absolute;
+    top: 50%; left: 50%; transform: translate(-50%,-50%);
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(34,197,94,0.07) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .final-cta h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(32px, 7vw, 54px);
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 16px;
+    line-height: 1.1;
+  }
+  .final-cta h2 .green { color: var(--green-light); }
+  .final-cta p { color: #7a957a; font-size: 16px; margin-bottom: 36px; }
+
+  /* FOOTER */
+  .footer {
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding: 32px 20px;
+    text-align: center;
+    color: #3d543d;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .footer a { color: var(--green); text-decoration: none; }
+
+  /* CTA STRIP */
+  .cta-strip {
+    background: linear-gradient(90deg, #0d1f0d, #111f11);
+    border: 1px solid rgba(34,197,94,0.2);
+    border-radius: 12px;
+    padding: 28px 32px;
+    text-align: center;
+    margin: 40px 0;
+  }
+  .cta-strip p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #c5d8c5;
+    margin-bottom: 16px;
+  }
+
+  /* SECTION SEPARATOR */
+  .section-sep {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 60px 0;
+    color: var(--border);
+  }
+  .section-sep::before, .section-sep::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+  .section-sep span {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  /* URGENCY */
+  .urgency-note {
+    font-size: 13px;
+    color: #d4a843;
+    text-align: center;
+    margin: 12px 0 0;
+    font-weight: 600;
+  }
+
+  /* Responsive */
+  @media (max-width: 480px) {
+    .testi-grid { grid-template-columns: 1fr; }
+    .testi-img.full { grid-column: 1; }
+    .cta-block { padding: 36px 20px; }
+    .product-card { padding: 28px 20px; }
+    .guarantee { padding: 32px 20px; }
+    .countdown { gap: 8px; }
+    .count-num { font-size: 38px; min-width: 58px; padding: 8px 12px; }
+    .mirror { padding: 22px 20px; }
+  }
+
+  /* Fade-in animations */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .stage1 > .container > * {
+    animation: fadeUp 0.7s ease both;
+  }
+  .stage1 > .container > *:nth-child(2) { animation-delay: 0.1s; }
+  .stage1 > .container > *:nth-child(3) { animation-delay: 0.2s; }
+  .stage1 > .container > *:nth-child(4) { animation-delay: 0.3s; }
+  .stage1 > .container > *:nth-child(5) { animation-delay: 0.4s; }
+</style>
+</head>
+<body>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2438635346556151&ev=PageView&noscript=1"/></noscript>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  ⚠️ Read This Entire Page Before You Decide Anything — <strong>It May Change Your Mind</strong>
+</div>
+
+<!-- STAGE 1 - UNAWARE -->
+<section class="stage1">
+  <div class="container">
+    <div class="stage-label"><span></span> For Anyone Trying to Make Money Online <span></span></div>
+
+    <p class="eyebrow">⚡ Stop. Read This First.</p>
+
+    <h1>
+      You've Been Trying to <span class="accent">Make Money Online</span><br>
+      — But Something Keeps<br>
+      <span class="gold">Going Wrong</span>
+    </h1>
+
+    <p class="stage1-lead">
+      You've seen the posts. The screenshots. The "I made ₦200k this week" stories.
+      You've tried a few things yourself. And you're still here — wondering why it hasn't worked for you.
+      <br><br>
+      This page will tell you exactly why. And what to do about it.
+    </p>
+
+    <div class="mirror">
+      <p>"I've watched so many YouTube videos, followed so many accounts… but every time I try to start, something blocks me."</p>
+      <p>"I don't even know which method is real anymore. Everything looks like a scam."</p>
+      <p>"Other people are making money — why is it not working for me?"</p>
+    </div>
+
+    <div class="scroll-hint">
+      KEEP READING — THE ANSWER IS BELOW
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- STAGE 2 - PROBLEM AWARE -->
+<section class="stage2">
+  <div class="container">
+    <div class="stage-label"><span></span> The Real Reason Nothing Has Worked <span></span></div>
+
+    <h2>Here's The <span class="red">Honest Truth</span> Most "Gurus" Won't Tell You</h2>
+
+    <p style="color:#96b096; font-size:17px; margin-bottom:8px;">
+      It's not that making money online doesn't work. It's not that you're not smart enough or don't work hard enough.
+    </p>
+    <p style="color:#96b096; font-size:17px; margin-bottom:32px;">
+      The real problem is simpler — and it's been costing you months of frustration.
+    </p>
+
+    <ul class="pain-list">
+      <li>
+        <span class="pain-icon">🔴</span>
+        <div>
+          <strong style="color:#dff0df;">You've been following random advice with no clear system.</strong>
+          <br>
+          One video says "start dropshipping." Another says "do crypto." Another says "content creation." You've been jumping between methods without finishing any of them — and wondering why nothing adds up.
+        </div>
+      </li>
+      <li>
+        <span class="pain-icon">🔴</span>
+        <div>
+          <strong style="color:#dff0df;">You've never been shown a complete step-by-step process — from zero to first sale.</strong>
+          <br>
+          Most free content gives you 20% of the information and sends you to buy a course for the rest. You're stuck piecing together fragments and hoping it works.
+        </div>
+      </li>
+      <li>
+        <span class="pain-icon">🔴</span>
+        <div>
+          <strong style="color:#dff0df;">You don't know how to get people to actually buy.</strong>
+          <br>
+          Maybe you've promoted something before and heard crickets. The problem isn't the product — it's that no one showed you how real marketing actually works.
+        </div>
+      </li>
+      <li>
+        <span class="pain-icon">🔴</span>
+        <div>
+          <strong style="color:#dff0df;">You've been burned by people who took your money and disappeared.</strong>
+          <br>
+          So now even when something looks genuine, you hesitate. Trust has been broken. That's not your fault — but it's costing you the opportunity to actually move forward.
+        </div>
+      </li>
+    </ul>
+
+    <div class="truth-box">
+      <p class="big-text">"The problem isn't the internet. The problem isn't your phone. The problem is that nobody gave you the actual map."</p>
+      <p>Once you have a clear, proven system — everything changes. Fast.</p>
+    </div>
+
+    <!-- Stage 2 CTA -->
+    <div class="cta-strip">
+      <p>Already know you need a system? Skip straight to the solution:</p>
+      <a href="#get-access" class="btn-main" onclick="fbq && fbq('track','Lead')">
+        👉 Yes — Show Me The System <span class="arrow">→</span>
+      </a>
+    </div>
+
+    <div class="transition-text">
+      What if someone sat down with you and showed you — from scratch — exactly how to start earning commissions promoting digital products online? No product to create. No technical experience. Just a phone and a clear step-by-step system?
+    </div>
+
+    <p style="color:#96b096; font-size:17px;">
+      That's exactly what the <strong style="color:#dff0df;">Unique Affiliate Guide</strong> does. And the results speak for themselves.
+    </p>
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- STAGE 3 - SOLUTION AWARE -->
+<section class="stage3">
+  <div class="container">
+    <div class="stage-label"><span></span> The Solution <span></span></div>
+
+    <h2 class="solution-headline">
+      How Complete Beginners Are<br>
+      <span class="green">Learning Affiliate Marketing Step-by-Step</span><br>
+      and Starting Their Online Income<br>
+      — Using Just Their Phone
+    </h2>
+
+    <p style="color:#96b096; font-size:17px; margin-top:16px; margin-bottom:36px; line-height:1.8;">
+      Most people want to make money online but don't know where to start. They try different things, get confused, and give up. What if there was a simple, step-by-step system — built specifically for beginners — that you could follow from your phone?
+    </p>
+
+    <!-- UAG Image — above the product card -->
+    <img src="https://raw.githubusercontent.com/mirabelfelix98/My-workflow/main/file_00000000a7b8720aa2573184ca5a6182.png" alt="Unique Affiliate Guide" style="width:100%; border-radius:12px; display:block; margin-bottom:24px;" />
+
+    <!-- Product Card -->
+    <div class="product-card">
+      <p class="creator">By Igweshi Dominic · Affiliate Marketing Expert</p>
+      <h3>UNIQUE AFFILIATE<br>GUIDE (UAG)</h3>
+      <p>
+        The UAG is a complete, beginner-friendly affiliate marketing training that shows you exactly how to earn commissions selling digital products online — starting from zero, using only your phone. No website. No experience. No capital required to get started.
+        <br><br>
+        This isn't another vague theory course. It's a practical, action-first system used by students across Africa, Europe, Asia, and beyond to earn real income.
+      </p>
+    </div>
+
+    <!-- Result callout -->
+    <div class="result-callout">
+      <div class="big-number">₦225,000</div>
+      <p>Made in <strong>under 48 hours</strong> — by one student, using this exact system.<br>From a phone. No product created. No prior experience.</p>
+    </div>
+
+    <!-- What You'll Learn -->
+    <div class="learn-section">
+      <h3>🎯 What You Will Learn Inside UAG</h3>
+      <div class="learn-grid">
+        <div class="learn-item">
+          <div class="check">✓</div>
+          <div class="learn-item-text">
+            <strong>What Affiliate Marketing Actually Is</strong>
+            <span>Explained simply — no confusing jargon, no fluff. Just clear, practical understanding.</span>
+          </div>
+        </div>
+        <div class="learn-item">
+          <div class="check">✓</div>
+          <div class="learn-item-text">
+            <strong>How Commissions Work — And How to Earn Them</strong>
+            <span>Understand exactly how money moves and where your cut comes from, every single time.</span>
+          </div>
+        </div>
+        <div class="learn-item">
+          <div class="check">✓</div>
+          <div class="learn-item-text">
+            <strong>How to Start as a Complete Beginner — Step by Step</strong>
+            <span>A clear roadmap from Day 1 to your first sale. No gaps, no skipped steps, no guessing.</span>
+          </div>
+        </div>
+        <div class="learn-item">
+          <div class="check">✓</div>
+          <div class="learn-item-text">
+            <strong>How to Promote Products and Get Real Buyers</strong>
+            <span>Traffic strategies using free social media platforms — works from any country in the world.</span>
+          </div>
+        </div>
+        <div class="learn-item">
+          <div class="check">✓</div>
+          <div class="learn-item-text">
+            <strong>Done-For-You Copy-Paste Scripts</strong>
+            <span>Exactly what to say to get people to buy — just copy, paste, and send. No writing skills needed.</span>
+          </div>
+        </div>
+        <div class="learn-item">
+          <div class="check">✓</div>
+          <div class="learn-item-text">
+            <strong>WhatsApp Sales System</strong>
+            <span>Turn your WhatsApp status and conversations into a consistent income stream.</span>
+          </div>
+        </div>
+        <div class="learn-item">
+          <div class="check">✓</div>
+          <div class="learn-item-text">
+            <strong>How to Scale Once You Get Your First Sale</strong>
+            <span>5x and 10x your results without working harder. The strategy that separates earners from beginners.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN PRICING BLOCK — ANCHOR TARGET -->
+    <div class="cta-block" id="get-access" style="scroll-margin-top: 90px;">
+      <p style="font-size:13px; color:var(--muted); margin-bottom:16px;">🔥 LIMITED TIME OFFER</p>
+      <div class="price-anchor">Regular Price: ₦25,000+</div>
+      <div class="price">₦15,000</div>
+      <div class="price-note">One-time payment · Instant access · 90-Day guarantee</div>
+
+      <div class="countdown-wrapper">
+        <p class="countdown-label">⏰ Offer price resets in:</p>
+        <div class="countdown">
+          <div class="count-unit">
+            <span class="count-num" id="cd-h1">24</span>
+            <span class="count-label-small">Hours</span>
+          </div>
+          <div class="count-sep">:</div>
+          <div class="count-unit">
+            <span class="count-num" id="cd-m1">00</span>
+            <span class="count-label-small">Minutes</span>
+          </div>
+          <div class="count-sep">:</div>
+          <div class="count-unit">
+            <span class="count-num" id="cd-s1">00</span>
+            <span class="count-label-small">Seconds</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://selar.com/p/361n65?affiliate=3ub2x65544" class="btn-main" onclick="fbq && fbq('track','InitiateCheckout')">
+        👉 YES — Give Me Instant Access →
+      </a>
+      <div class="trust-badges">
+        <span class="badge">🔒 Secure Checkout on Selar</span>
+        <span class="badge">⚡ Instant Digital Delivery</span>
+        <span class="badge">🛡️ 90-Day Money-Back Guarantee</span>
+      </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <div class="benefits">
+      <h3>🔥 Why This Works When Nothing Else Has</h3>
+      <div class="benefit-pills">
+        <span class="pill">✅ Learn at your own pace</span>
+        <span class="pill">✅ Beginner-friendly</span>
+        <span class="pill">✅ No experience required</span>
+        <span class="pill">✅ Works from any smartphone</span>
+        <span class="pill">✅ No website needed</span>
+        <span class="pill">✅ No starting capital required</span>
+        <span class="pill">✅ Works in any country</span>
+        <span class="pill">✅ Start in 30–60 mins/day</span>
+      </div>
+      <p style="color:#7a957a; font-size:15px; line-height:1.8;">
+        This isn't built for someone with extra time, extra money, and years of experience. It's built for a normal person with a normal phone who wants to build a real income online — starting from exactly where they are right now.
+      </p>
+    </div>
+
+    <div class="section-sep"><span>Real Results From Real People</span></div>
+
+    <!-- Testimonials -->
+    <div class="testimonials">
+      <h3>📸 See What Students Are Saying</h3>
+      <p class="sub">Real screenshots. Real results. Everyday people following the same system.</p>
+      <div class="testi-grid">
+        <div class="testi-img">
+          <img src="https://raw.githubusercontent.com/mirabelfelix98/My-workflow/main/IMG_20260408_111831_966.jpg" alt="UAG student result" loading="lazy" />
+        </div>
+        <div class="testi-img">
+          <img src="https://raw.githubusercontent.com/mirabelfelix98/My-workflow/main/IMG_20260408_111801_271.jpg" alt="UAG student result" loading="lazy" />
+        </div>
+        <div class="testi-img">
+          <img src="https://raw.githubusercontent.com/mirabelfelix98/My-workflow/main/IMG_20260408_111059_626.jpg" alt="UAG student result" loading="lazy" />
+        </div>
+        <div class="testi-img">
+          <img src="https://raw.githubusercontent.com/mirabelfelix98/My-workflow/main/IMG_20260408_111035_923.jpg" alt="UAG student result" loading="lazy" />
+        </div>
+        <div class="testi-img">
+          <img src="https://raw.githubusercontent.com/mirabelfelix98/My-workflow/main/IMG_20260408_111029_671.jpg" alt="UAG student result" loading="lazy" />
+        </div>
+        <div class="testi-img">
+          <img src="https://raw.githubusercontent.com/mirabelfelix98/My-workflow/main/IMG_20260408_111022_108.jpg" alt="UAG student result" loading="lazy" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Inline CTA after testimonials -->
+    <div class="cta-block">
+      <p style="color:#c5d8c5; font-size:18px; font-weight:600; margin-bottom:8px;">You've seen the proof. You understand the system.</p>
+      <p style="color:#7a957a; font-size:15px; margin-bottom:24px;">Every day you wait is another day someone else in the world earns with the system you could have had.</p>
+
+      <div class="countdown-wrapper">
+        <p class="countdown-label">⏰ This offer expires in:</p>
+        <div class="countdown">
+          <div class="count-unit">
+            <span class="count-num" id="cd-h2">24</span>
+            <span class="count-label-small">Hours</span>
+          </div>
+          <div class="count-sep">:</div>
+          <div class="count-unit">
+            <span class="count-num" id="cd-m2">00</span>
+            <span class="count-label-small">Minutes</span>
+          </div>
+          <div class="count-sep">:</div>
+          <div class="count-unit">
+            <span class="count-num" id="cd-s2">00</span>
+            <span class="count-label-small">Seconds</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#get-access" class="btn-main" onclick="fbq && fbq('track','InitiateCheckout')">
+        👉 YES — Give Me Instant Access →
+      </a>
+      <div class="trust-badges" style="margin-top:14px;">
+        <span class="badge">🔒 Secure</span>
+        <span class="badge">⚡ Instant Delivery</span>
+        <span class="badge">🛡️ 90-Day Guarantee</span>
+      </div>
+    </div>
+
+    <!-- Objections FAQ -->
+    <div class="objections">
+      <h3>💬 "But What If…" — Honest Answers</h3>
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span>😒 "I've tried things like this before and it didn't work."</span>
+          <span class="icon">+</span>
+        </div>
+        <div class="faq-a">
+          Most courses give you theory and leave you to figure out the rest. The UAG gives you copy-paste scripts, step-by-step actions, and a proven system that removes all guesswork. If what you tried before didn't have that — this is completely different.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span>💸 "What if I spend money and it doesn't work for me?"</span>
+          <span class="icon">+</span>
+        </div>
+        <div class="faq-a">
+          That's exactly why there's a 90-day 100% money-back guarantee. You have 3 full months to apply the system. If you don't get results, you get every naira back. No questions asked. You literally cannot lose — the only risk is not trying.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span>🤔 "I don't have experience in affiliate marketing."</span>
+          <span class="icon">+</span>
+        </div>
+        <div class="faq-a">
+          Good — because UAG was built specifically for beginners. You don't need experience, a website, or any technical skill. Just a phone, internet access, and the willingness to follow steps. The system does the heavy lifting.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span>⏰ "I don't have time — I'm already too busy."</span>
+          <span class="icon">+</span>
+        </div>
+        <div class="faq-a">
+          This system was designed to work around a busy schedule. Even 30–60 minutes a day is enough to start. Many people running the UAG system have 9-to-5 jobs, kids, and full lives. They still make it work because the system is simple and efficient.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <span>🌍 "Does this work where I live?"</span>
+          <span class="icon">+</span>
+        </div>
+        <div class="faq-a">
+          Yes — the UAG is built around digital products and online platforms that work globally. Whether you're in Africa, Europe, Asia, or the Americas, if you have a phone and internet access, you can run this system. Students across multiple countries are already seeing results.
+        </div>
+      </div>
+    </div>
+
+    <!-- Guarantee -->
+    <div class="guarantee">
+      <div class="shield">🛡️</div>
+      <h3>90-Day 100% Money-Back Guarantee</h3>
+      <p>
+        Take a full 90 days to go through the program and apply what's taught. If you don't see any results within that time — you get a full refund. No questions asked. No stress.
+        <br><br>
+        That's 3 full months to test-drive the entire system at <strong>zero risk</strong>. Either the UAG changes your financial life — or you walk away with every cent of your money back.
+      </p>
+      <span class="guarantee-badge">✅ 90 Days · Zero Risk · 100% Protected</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <div class="container">
+    <h2>Ready to Build Your<br><span class="green">Life-Changing Income?</span></h2>
+    <p>Get the complete UAG — your step-by-step blueprint, done-for-you scripts, and everything you need to start earning from anywhere in the world, today.</p>
+
+    <div class="countdown-wrapper" style="margin-bottom:32px;">
+      <p class="countdown-label">⏰ Offer resets in:</p>
+      <div class="countdown">
+        <div class="count-unit">
+          <span class="count-num" id="cd-h3">24</span>
+          <span class="count-label-small">Hours</span>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-unit">
+          <span class="count-num" id="cd-m3">00</span>
+          <span class="count-label-small">Minutes</span>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-unit">
+          <span class="count-num" id="cd-s3">00</span>
+          <span class="count-label-small">Seconds</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#get-access" class="btn-main" style="max-width:520px; margin:0 auto 16px;" onclick="fbq && fbq('track','InitiateCheckout')">
+      👉 YES — Give Me Instant Access Now →
+    </a>
+
+    <p class="urgency-note">⚠️ This special price can change at any time. Act now to lock it in.</p>
+
+    <div class="trust-badges" style="margin-top:24px;">
+      <span class="badge">🔒 Secure Checkout</span>
+      <span class="badge">⚡ Instant Delivery</span>
+      <span class="badge">🛡️ 90-Day Guarantee</span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <p>This page contains an affiliate link. If you purchase through it, I may earn a commission at no extra cost to you.</p>
+    <p>Results may vary. Individual success depends on effort, dedication, and application of the material.</p>
+    <p style="margin-top:12px;">© 2026 · Built by <a href="https://emmason-workflow.netlify.app">Emmason Designs</a></p>
+  </div>
+</footer>
+
+<script>
+// SYNCED 24-HOUR COUNTDOWN
+(function() {
+  var KEY = 'uag_v2_cd_expiry';
+  var stored = localStorage.getItem(KEY);
+  var expiry;
+
+  if (stored) {
+    expiry = parseInt(stored, 10);
+    if (Date.now() >= expiry) {
+      expiry = Date.now() + 24 * 60 * 60 * 1000;
+      localStorage.setItem(KEY, expiry);
+    }
+  } else {
+    expiry = Date.now() + 24 * 60 * 60 * 1000;
+    localStorage.setItem(KEY, expiry);
+  }
+
+  var ids = [
+    { h: 'cd-h1', m: 'cd-m1', s: 'cd-s1' },
+    { h: 'cd-h2', m: 'cd-m2', s: 'cd-s2' },
+    { h: 'cd-h3', m: 'cd-m3', s: 'cd-s3' }
+  ];
+
+  function pad(n) { return n < 10 ? '0' + n : '' + n; }
+
+  function tick() {
+    var diff = expiry - Date.now();
+    if (diff < 0) diff = 0;
+    var h = Math.floor(diff / 3600000);
+    var m = Math.floor((diff % 3600000) / 60000);
+    var s = Math.floor((diff % 60000) / 1000);
+    ids.forEach(function(id) {
+      var eh = document.getElementById(id.h);
+      var em = document.getElementById(id.m);
+      var es = document.getElementById(id.s);
+      if (eh) eh.textContent = pad(h);
+      if (em) em.textContent = pad(m);
+      if (es) es.textContent = pad(s);
+    });
+    if (diff === 0) {
+      expiry = Date.now() + 24 * 60 * 60 * 1000;
+      localStorage.setItem(KEY, expiry);
+    }
+  }
+
+  tick();
+  setInterval(tick, 1000);
+})();
+
+// FAQ TOGGLE
+function toggleFaq(el) {
+  var item = el.parentElement;
+  var isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(function(i) { i.classList.remove('open'); });
+  if (!isOpen) item.classList.add('open');
+}
+</script>
+
+</body>
+</html>
